@@ -9,7 +9,7 @@
 	</dict>
 	
 <key>DurationUntilRemoval</key>
-	<integer>20</integer>
+	<integer>30</integer>
 	
 	<key>PayloadContent</key>
 	<array>
@@ -319,7 +319,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Profile will auto remove after 20 seconds. This profile disables ScreenTime on iOS 12.0-12.1.</string>
+	<string>Profile will auto remove after 30 seconds. This profile disables ScreenTime on iOS 12.0-12.1.</string>
 	<key>PayloadDisplayName</key>
 	<string>iNoParentControls12</string>
 	<key>PayloadIdentifier</key>

@@ -6,7 +6,7 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>Shows Battery Percent on iOS 9-13.0 Beta 1. iOS 6-8 should work also.</string>
+		<string>Shows Battery Percent on iOS 9 - 12.1 / 13.0 Beta 1. iOS 6 - 8 should also work.</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -34,7 +34,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This profile modifies the (SBShowBatteryLevel) setting in the springboard</string>
+	<string>Enables Battery Percentage on iOS devices. See consent message for supported iOS versions.</string>
 	<key>PayloadDisplayName</key>
 	<string>ShowBatteryPercentSB</string>
 	<key>PayloadIdentifier</key>
