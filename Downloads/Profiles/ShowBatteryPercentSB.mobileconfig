@@ -28,9 +28,6 @@
 					<dict>
 <key>SBShowBatteryLevel</key>
 <true/>
-					</dict>
-				</dict>
-			</array>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>

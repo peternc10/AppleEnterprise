@@ -1,25 +1,22 @@
-<?xml version=“1.0” encoding=“UTF-8”?>
-<!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “http://www.apple.com/DTDs/PropertyList-1.0.dtd”>
-<plist version=“1.0”>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>Resets Restrictions Password on iOS 6 - 11.</string>
+		<string>Shows AccessoryDeveloper Setting on iOS 11-13.0 Beta 1. iOS 6-10 might work.</string>
 	</dict>
-	
-<key>DurationUntilRemoval</key>
-<integer>30</integer>
-	
 	<key>PayloadContent</key>
 	<array>
 		<dict>
 			<key>PayloadIdentifier</key>
-			<string>com.enterprise.RestrictionsReset11</string>
+			<string>com.appleenteprise.SB.Accessory</string>
 			<key>PayloadType</key>
 			<string>com.apple.defaults.managed</string>
 			<key>PayloadUUID</key>
-			<string>5686366d-1b8a-4931-98f4-312dd209f513</string>
+			<string>29b5cda7-15ed-4db5-b9f2-3015eb3de042</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadContent</key>
@@ -29,16 +26,16 @@
 					<string>com.apple.springboard</string>
 					<key>DefaultsData</key>
 					<dict>
-						<key>SBParentalControlsPIN</key>
-						<string>5321</string>
+<key>AccessoryDeveloperEnabled</key>
+<true/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Profile will auto remove after 30 seconds. This profile resets restrictions password to (5321).</string>
+	<string>Enables AccessoryDeveloperEnabled setting on iOS devices.</string>
 	<key>PayloadDisplayName</key>
-	<string>RestrictionsReset11</string>
+	<string>AccessoryDeveloper</string>
 	<key>PayloadIdentifier</key>
-	<string>com.appleenterprise.RestrictionsReset11</string>
+	<string>com.appleenteprise.SB.Accessory</string>
 	<key>PayloadOrganization</key>
 	<string>@APPLEH4CKZ</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -46,15 +43,16 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>e8d6fe2e-a776-4ce7-89b5-b5a72f4eb9e6</string>
-	<key>PayloadVersion</key>
+	<string>29b5cda7-15ed-4db5-b9f2-3015eb3de042</string>
+		<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadScope</key>
 	<string>System</string>
 	<key>SignerCerts</key>
 	<array>
 		<data>
-		MIIFUzCCBDugAwIBAgIIWOJdzSZioOUwDQYJKoZIhvcNAQELBQAwgYwxQDA+
+
+MIIFUzCCBDugAwIBAgIIWOJdzSZioOUwDQYJKoZIhvcNAQELBQAwgYwxQDA+
 		BgNVBAMMN0FwcGxlIEFwcGxpY2F0aW9uIEludGVncmF0aW9uIDIgQ2VydGlm
 		aWNhdGlvbiBBdXRob3JpdHkxJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRp
 		b24gQXV0aG9yaXR5MRMwEQYDVQQKDApBcHBsZSBJbmMuMQswCQYDVQQGEwJV

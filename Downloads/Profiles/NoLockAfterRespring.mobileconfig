@@ -28,9 +28,6 @@
 					<dict>
 <key>SBDontLockAfterCrash</key>
 <true/>
-					</dict>
-				</dict>
-			</array>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>

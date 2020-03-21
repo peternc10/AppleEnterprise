@@ -28,9 +28,6 @@ RSSI means (Received Signal Strength Indicator).</string>
 					<dict>
 <key>SBShowRSSI</key>
 <true/>
-					</dict>
-				</dict>
-			</array>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
