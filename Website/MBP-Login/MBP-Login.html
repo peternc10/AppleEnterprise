@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type = "text/javascript">
+var count = 5;
+function validate() {
+var user = document.myform.username.value;
+var pw = document.myform.pword.value;
+var valid = false;
+
+var userArray = [
+"admin", "Gabriel"];
+var pwArray = [
+"aple357", "gabriel0712"];
+
+for (var i=0; i <userArray.length; i++) {
+if ((user == userArray[i]) && (pw == pwArray[i])) {
+valid = true;
+break;
+}
+}
+
+if (valid) {
+alert ("Login was successful.");
+window.location = "http://www.google.com";
+return false;
+}
+
+var t = " tries";
+if (count == 1) {t = " try"}
+
+if (count >= 1) {
+alert ("Invalid username and/or password.  You have " + count + t + " left.");
+document.myform.username.value = "";
+document.myform.pword.value = "";
+setTimeout("document.myform.username.focus()", 30);
+setTimeout("document.myform.username.select()", 30);
+count --;
+}
+
+else {
+alert ("Still incorrect! Please try again later...");
+document.myform.username.value = "No More Tries Allowed";
+document.myform.pword.value = "";
+document.myform.username.disabled = true;
+document.myform.pword.disabled = true;
+return false;
+}
+
+}
+
+</script>
+<style>
+body {
+  padding: 25px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+</style>
+</head>
+<body>
+
+<center>
+<T style="font-size:50px;color:#008B9F;">Apple Enterprise</T>
+</center>
+
+<h4>SystemLogin</h4>
+
+<form name = "myform">
+<p>Username: <input type="text" name="username">
+Password: <input type="password" name="pword">
+<input type="button" value="Login" name="Submit" onclick= "validate()">
+</p>
+
+</form>
+
+<center>
+<p4 style="font-size:12px;">©2020 APPLEH4CKZ. All Rights Reserved.</p4>
+</center>
+
+</body>
+</html>
