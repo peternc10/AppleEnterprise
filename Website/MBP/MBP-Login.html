@@ -5,28 +5,21 @@
 <script type = "text/javascript">
 var count = 5;
 function validate() {
-var user = document.myform.username.value;
+var us = document.myform.username.value;
 var pw = document.myform.pword.value;
 var valid = false;
 
 var userArray = [
-"admin",
-"Gabriel",
-"MrREnterprise",
-"xrillex",
-"kingb104"
+"admin", "Gabriel", "MrREnterprise", "xrillex", "kingb104"
 ];
 
 var pwArray = [
-"aple357",
-"gabriel0712",
-"password2810",
-"P@ssw0rd9487",
-"tpvym95v"
+"aple357", "gabriel0712", "password2810", "P@ssw0rd9487",
+ "tpvym95v"
 ];
 
 for (var i=0; i <userArray.length; i++) {
-if ((user == userArray[i]) && (pw == pwArray[i])) {
+if ((us == userArray[i]) && (pw == pwArray[i])) {
 valid = true;
 break;
 }
