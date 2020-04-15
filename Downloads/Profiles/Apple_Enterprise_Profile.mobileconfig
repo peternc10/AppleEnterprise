@@ -22,7 +22,7 @@ Apple Shortcuts, Wallpapers,
 Internal Profiles,
 and much more!</string>
 			<key>PayloadDisplayName</key>
-			<string>{{payloadname}}</string>
+			<string>Apple Enterprise</string>
 			<key>PayloadIdentifier</key>
 			<string>>com.apple-enterprise.website.profile</string>
 			<key>PayloadOrganization</key>
