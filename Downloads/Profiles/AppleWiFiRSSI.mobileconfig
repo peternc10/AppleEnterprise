@@ -37,7 +37,7 @@ RSSI means (Received Signal Strength Indicator).</string>
 	<key>PayloadIdentifier</key>
 	<string>com.appleenterprise.AppleWiFiRSSI</string>
 	<key>PayloadOrganization</key>
-	<string>@APPLEH4CKZ</string>
+	<string>@_AppleExpert</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
