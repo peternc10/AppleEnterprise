@@ -121,20 +121,37 @@ body {
 <p4 style="font-size:11px;">Copyright ©2020 AppleExpert. All Rights Reserved.</p4>
 </center>
 
-<!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://appleh4ckz.github.io/AppleEnterprise/Website/index" data-a2a-title="Home">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-<a class="a2a_button_facebook"></a>
-<a class="a2a_button_twitter"></a>
-<a class="a2a_button_email"></a>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_button_email"></a>
+    <a class="a2a_button_sms"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_whatsapp"></a>
 </div>
+
 <script>
 var a2a_config = a2a_config || {};
-a2a_config.onclick = 1;
-a2a_config.num_services = 4;
+a2a_config.templates = a2a_config.templates || {};
+
+a2a_config.templates.email = {
+    subject: "Check this out: ${title}",
+    body: "Click the link:\n${link}"
+};
+
+a2a_config.templates.sms = {
+    body: "Check this out: ${AppleEnterprise} ${https://appleh4ckz.github.io/AppleEnterprise/Website/index/}"
+};
+
+a2a_config.templates.twitter = {
+    text: "Check out out Apple Enterprise! it's a really cool website!"
+};
+
+a2a_config.templates.whatsapp = {
+    phone: "2369928588",
+    text: "I'm interested in ${title} posted here: ${link}"
+};
 </script>
+
 <script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->
 
 </body>
 </html>
