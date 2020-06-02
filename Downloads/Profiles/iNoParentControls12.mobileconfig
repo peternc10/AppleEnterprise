@@ -8,9 +8,6 @@
 		<string>This profile is for iOS 12.0-12.1. This profile also does not REQUIRE supervised mode for it to work.</string>
 	</dict>
 	
-<key>DurationUntilRemoval</key>
-	<integer>30</integer>
-	
 	<key>PayloadContent</key>
 	<array>
 		<dict>

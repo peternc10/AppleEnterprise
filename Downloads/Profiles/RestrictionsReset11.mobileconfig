@@ -8,9 +8,6 @@
 		<string>Resets Restrictions Password on iOS 6 - 11.</string>
 	</dict>
 	
-<key>DurationUntilRemoval</key>
-<integer>30</integer>
-	
 	<key>PayloadContent</key>
 	<array>
 		<dict>
