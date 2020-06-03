@@ -5,7 +5,7 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>REQUIRES supervised mode in order for this profile to work.</string>
+		<string>Requires supervised mode in order for this profile to work.</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -233,9 +233,9 @@
 	<key>PayloadDescription</key>
 	<string>Profile will auto remove after 20 seconds. This profile disables ScreenTime on iOS 12-13 on supervised devices.</string>
 	<key>PayloadDisplayName</key>
-	<string>ByeScreenTimeiOS</string>
+	<string>iHateScreenTime</string>
 	<key>PayloadIdentifier</key>
-	<string>com.appleenterprise.ByeScreenTimeiOS</string>
+	<string>com.appleenterprise.iHateScreenTime</string>
 	<key>PayloadOrganization</key>
 	<string>@_AppleExpert</string>
 	<key>PayloadRemovalDisallowed</key>
