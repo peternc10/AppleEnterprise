@@ -2,53 +2,60 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://appleh4ckz.github.io/AppleEnterprise/Website/style.css/" rel="stylesheet" type="text/css"/>
-<style>
+<link href="https://appleh4ckz.github.io/AppleEnterprise/Website/style.css/" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+
 body {margin:0;}
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-image: url('https://raw.githubusercontent.com/APPLEH4CKZ/AppleEnterprise/master/Website/Discover/Internal/photo.png'); 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #1E90FF; 
+	} 
+ 
+#navbar ul li a:hover:not(.active) { 
+	color: #fff; 
+	background-color: #1E90FF; 
+	}
+	
+#navbar ul li .active { 
+	color: #fff; 
+	background-color: #4CAF50; 
+	}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
 </style>
 </head>
+<div style="padding:10px;margin-top:0px;background-image: url('https://raw.githubusercontent.com/APPLEH4CKZ/AppleEnterprise/master/Website/index/background.png');height:1500;">
 <body>
 
-<ul>
+<div id="navbar"> 
+  <ul> 
   <li><a class="active" href="">Home</a></li>
   <li><a href="https://appleh4ckz.github.io/AppleEnterprise/Website/Discover/Discover.html">Discover</a></li>
- <li><a href="https://appleh4ckz.github.io/AppleEnterprise/Website/Developers/Developers.html">Developer</a></li>
-</ul>
+   <li><a href="https://appleh4ckz.github.io/AppleEnterprise/Website/Developers/Developers.html">Developers</a></li>
 
-<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+ <br>
+ <br>
 
+  <li><a href="https://appleh4ckz.github.io/AppleEnterprise/Website/index/">About AppleEnterprise</a></li>
+  </ul>
+  </div>
+
+<center>
 <T style="font-size:35px;color:#008B9F;">Apple Enterprise</T>
+</center>
 
 <marquee>Welcome to Apple Enterprise! Please use the Navbar to migrate to pages.</marquee>
 
@@ -62,7 +69,7 @@ li a:hover:not(.active) {
 <br>
 <br>
 
-</div>
+<footer>&copy; Copyright 2020 AppleExpert. All Rights Reserved.</footer>
 
 </body>
 </html>
